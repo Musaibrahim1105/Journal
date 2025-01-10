@@ -1,4 +1,10 @@
-nav {
+a {
     padding: 28px;
-    border-bottom: ;
+    border-bottom:thick green;
+    text-decoration: none;
 }
+
+h1 {
+    color: aqua;
+}
+
