@@ -1,10 +1,43 @@
-a {
-    padding: 28px;
-    border-bottom:thick green;
+nav {
+    padding: 20px;
+    border-bottom: 2px solid #eaeaea;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    font-family:'poppins', serif;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: mono;
+}
+
+.login{
+    padding: 10px 20px;
+    border: 2px solid #d34692;
+    border-radius: 20px;
+}
+
+
+nav a {
+    margin: 0 20px;
+    font-size: 20px;
+    color: grey;
     text-decoration: none;
+
 }
 
-h1 {
-    color: aqua;
-}
+a:hover {
+    color: black;
+  }
 
+  /* a:visited {
+    color: #00FF00;
+  } */
+
+.pink{
+    color: #d34692;
+}
