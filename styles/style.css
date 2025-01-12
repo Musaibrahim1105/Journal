@@ -151,6 +151,41 @@ a:hover {
     nav {
         justify-content: space-between;
     }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .leading{
+        font-size: 10vw;
+    }
+}
+
+/* MEDIA QUERY 768PX */
+
+@media (max-width: 768px) {
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .leading{
+        font-size: 10vw;
+    }
+
+    .leading a {
+        font-size: 5vw;
+
+    }
+    
 }
 
 
