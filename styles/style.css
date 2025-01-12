@@ -67,6 +67,11 @@ a:hover {
     text-decoration: none;
     font-weight: bold;
 }
+/* HANDBURGER */
+
+.handburger {
+  display: none;
+}
 
 
 /* card section */
@@ -78,11 +83,13 @@ a:hover {
 }
 .card {
     height: 225px;
-    width: 250px;
+    width: 200px;
     padding: 20px;
     background-color: grey;
     align-items: center;
     border-radius: 10px;
+    position: relative;
+    margin: 10px;
 }
 
 .card div {
@@ -93,7 +100,7 @@ a:hover {
 
 .card div p {
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     
 }
 
@@ -102,7 +109,11 @@ a:hover {
 }
 
 .card img {
-    margin-left: 55px;
+    height:180px;
+    width: 180;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
 }
 
 .card-1 {
@@ -120,3 +131,26 @@ a:hover {
 .card-4 {
     background-color:#80a39c ;
 }
+
+
+
+/* MEDIA QUERY SECTION*/
+
+@media (max-width: 600px) {
+
+    nav a:not(:first-child){
+        display: none;
+    }
+
+    .handburger {
+        width: 30px;
+        height: 30px;
+        display: block;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+}
+
+
